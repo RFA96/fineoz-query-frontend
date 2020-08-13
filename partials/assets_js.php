@@ -1,4 +1,5 @@
 <!-- Core -->
+<script src="../assets/js/jquery-3.4.1.min.js"></script>
 <script src="../assets/vendor/jquery/dist/jquery.min.js"></script>
 <script src="../assets/vendor/popper/popper.min.js"></script>
 <script src="../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

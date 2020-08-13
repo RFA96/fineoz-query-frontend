@@ -1,6 +1,6 @@
 <nav class="navbar navbar-horizontal navbar-expand-lg navbar-white navbar-light bg-white border-bottom">
     <div class="container">
-        <a class="navbar-brand" href="../pages/list_card.php"><img src="../assets/img/brand/image-logo.png"></a><span><strong> BIG DATABASE</strong></span>
+        <a class="navbar-brand" href="../pages/search.php"><img src="../assets/img/brand/fineoz_logo.png"></a><span></span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -9,7 +9,7 @@
             <div class="navbar-collapse-header">
                 <div class="row">
                     <div class="col-6 collapse-brand">
-                        <a href="../pages/list_card.php">
+                        <a href="../pages/search.php">
                             <img src="../assets/img/brand/image-logo.png">
                         </a>
                     </div>

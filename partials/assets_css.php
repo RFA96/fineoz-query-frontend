@@ -3,7 +3,7 @@
 <meta name="author"/>
 <meta name="description" content="Scoring Dashboard System by Fineoz"/>
 
-<link rel="icon" type="image/png" href="../assets/img/brand/image-logo.png">
+<link rel="icon" type="image/png" href="../assets/img/brand/fineoz_icon.png">
 
 <!-- Favicon -->
 <link rel="icon" href=""/>
