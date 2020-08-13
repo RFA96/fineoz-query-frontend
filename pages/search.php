@@ -12,7 +12,7 @@
 
         <div class="container">
             <div class="row justify-content-center py-4">
-                <div style="width: 30rem;">
+                <div class="col-lg-6">
                     <div class="card card-stats mr-4">
                         <div class="card-body">
                             <h2 class="text-center mb-4">Search</h2>
@@ -165,6 +165,7 @@
                 </div>
             </div>
         </div>
+        <br/>
         <?php include "../partials/assets_js.php"; ?>
         <script>
             /*$('#table_individu, #table_indohome, #table_indosat, #table_media, #table_slik').DataTable({
@@ -176,6 +177,7 @@
                     }
                 }
             });*/
+
         </script>
 
     </body>
