@@ -10,7 +10,7 @@
         return $explode[2]." ".$month[(int)$explode[1]]." ".$explode[0];
     }
 
-    if(!isset($_SESSION['api_key'])){
+    if(!isset($_SESSION['username'])){
         $_SESSION['error_message'] = "You must login to see this app!";
         $_SESSION['status'] = "failed";
         header("Location: ../");

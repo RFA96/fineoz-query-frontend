@@ -36,7 +36,13 @@
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbar-default_dropdown_1">
                         <a class="dropdown-item" href="#">
                             <i class="ni ni-single-02"></i>
-                            <span>Sondang</span>
+                            <?php
+                                $getUsernameQuery = $conn->prepare("SELECT full_name FROM users WHERE username = :username");
+                                $getUsernameQuery->bindParam(':username', $_SESSION['username']);
+                                $getUsernameQuery->execute();
+                                $rowGetUsername = $getUsernameQuery->fetchAll(PDO::FETCH_ASSOC);
+                            ?>
+                            <span><?= $rowGetUsername[0]['full_name'];?></span>
                         </a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">

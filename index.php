@@ -174,7 +174,7 @@
                     </div>
                 </div>
                 <?php
-                    if(isset($_SESSION['status'])){
+                    if(isset($_SESSION['status']) AND isset($_SESSION['message'])){
                         ?>
                             <div class="row">
                                 <div class="col-lg-12">
