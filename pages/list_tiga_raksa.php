@@ -1,8 +1,9 @@
+<?php include "../config.php";?>
 <!doctype html>
 <html lang="en">
 
     <head>
-        <title>Monitoring</title>
+        <title>Tiga Raksa</title>
         <?php include "../partials/assets_css.php"; ?>
 
     </head>
@@ -21,24 +22,14 @@
                 </div>
             </div>
             <div class="row py-2">
-                <h2 class="mb-4">DETAILS INDIHOME</h2>
+                <h2 class="mb-4">DETAILS TIGA RAKSA</h2>
                 <div class="table-responsive">
-                    <table class="table table-flush" id="table_indohome">
+                    <table class="table table-flush" id="table_tigaraksa">
                         <thead class="thead-light">
-                        <tr>
-                            <th>Name</th>
-                            <th>ID KTP</th>
-                            <th>Mobile Number</th>
-                            <th>TV Duration</th>
-                            <th>Channel TV</th>
-                            <th>Payment Date</th>
-                            <th>TV Program</th>
-                            <th>Phone Number</th>
-                            <th>Status</th>
-                            <th>Activation</th>
-                            <th>Birth Date</th>
-                            <th>Province</th>
-                        </tr>
+                            <tr>
+                                <th>Name</th>
+
+                            </tr>
                         </thead>
                         <tbody>
                         </tbody>
@@ -49,7 +40,7 @@
         <?php include "../partials/assets_js.php"; ?>
 
         <script>
-            $('#table_individu, #table_indohome, #table_indosat, #table_media, #table_slik').DataTable({
+            $('#table_tigaraksa').DataTable({
                 ordering:false,
                 language:{
                     paginate:{
