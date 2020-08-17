@@ -55,7 +55,7 @@
                         </thead>
                         <tbody>
                             <?php
-                                $sqlFetchIndihome = $myPDOIndihome->query("SELECT * FROM indihome_10");
+                                $sqlFetchIndihome = $conn->query("SELECT * FROM indihome_10");
                                 $rowFetchIndihome = $sqlFetchIndihome->fetchAll(PDO::FETCH_ASSOC);
 
                                 for($i = 0; $i < count($rowFetchIndihome); $i++){
@@ -97,7 +97,7 @@
         <?php include "../partials/assets_js.php"; ?>
 
         <script>
-            $('#table_individu, #table_indohome, #table_indosat, #table_media, #table_slik').DataTable({
+            $('#table_indohome').DataTable({
                 ordering:false,
                 language:{
                     paginate:{

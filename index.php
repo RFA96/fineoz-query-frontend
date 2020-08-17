@@ -39,7 +39,7 @@
             font-family: "Roboto", sans-serif;
             /* text-transform: uppercase; */
             outline: 0;
-            background: orange;
+            background: #0A5488;
             width: 100%;
             border: 0;
             padding: 15px;
@@ -81,14 +81,13 @@
         }
 
         .form .text1 {
-            font-size: 28px;
+            font-size: 20px;
             text-align: left;
         }
 
         .form .text2 {
-            font-size: 14px;
+            font-size: 20px;
             text-align: left;
-            padding-bottom: 10px;
         }
 
         .form .line {
@@ -169,7 +168,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <p class="text1"><center><strong>Welcome</strong></center></p>
-                        <span class="text2"><center>Login to big database</center></p></span>
+                        <span class="text2"><center>Login to Data Mart</center></p></span>
                         <hr class="line">
                     </div>
                 </div>
