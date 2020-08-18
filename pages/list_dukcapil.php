@@ -38,10 +38,6 @@
                                 <th>Jalan/Dukuh</th>
                                 <th>Rt</th>
                                 <th>Rw</th>
-                                <th>Dis-abilitas</th>
-                                <th>Keterangan  *)</th>
-                                <th>Sumber Data</th>
-                                <th>TPS</th>
                                 <th>Desa/Kelurahan</th>
                                 <th>Kecamatan</th>
                                 <th>Kabupaten/Kota</th>
@@ -67,10 +63,6 @@
                                             <td><?= $rowFetchDukcapil[$i]['Jalan/Dukuh']?></td>
                                             <td><?= $rowFetchDukcapil[$i]['Rt']?></td>
                                             <td><?= $rowFetchDukcapil[$i]['Rw']?></td>
-                                            <td><?= $rowFetchDukcapil[$i]['Dis-abilitas']?></td>
-                                            <td><?= $rowFetchDukcapil[$i]['Keterangan  *)']?></td>
-                                            <td><?= $rowFetchDukcapil[$i]['Sumber Data']?></td>
-                                            <td><?= $rowFetchDukcapil[$i]['TPS']?></td>
                                             <td><?= $rowFetchDukcapil[$i]['Desa/Kelurahan']?></td>
                                             <td><?= $rowFetchDukcapil[$i]['Kecamatan']?></td>
                                             <td><?= $rowFetchDukcapil[$i]['Kabupaten/Kota']?></td>

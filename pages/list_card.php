@@ -12,7 +12,16 @@
         <?php include "../partials/topnav.php"; ?>
 
         <div class="container">
-            <div class="row py-4">
+            <div class="row">
+                <div class="mt-4">
+                    <nav aria-label="breadcrumb" class="d-md-inline-block ml-md-4">
+                        <ol class="breadcrumb breadcrumb-dark">
+                            <li class="breadcrumb-item"><a href="search.php" class="text-white"><i class="fas fa-angle-left"></i> Back</a></li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+            <div class="row py-2">
                 <div class="col-lg-12">
                     <div class="accordion" id="accordionExample">
                         <div class="card">
@@ -28,8 +37,8 @@
                                                     <div class="row">
                                                         <div class="col">
                                                             <h2 class="card-title text-uppercase font-weight-bold mb-0">Indosat</h2>
-                                                            <span class="text-info text-sm"><i class="fa fa-database"></i> 348</span>
-                                                            <span class="text-muted text-sm">Data Field</span>
+<!--                                                            <span class="text-info text-sm"><i class="fa fa-database"></i> 348</span>-->
+<!--                                                            <span class="text-muted text-sm">Data Field</span>-->
                                                         </div>
                                                         <div class="col-auto">
                                                             <div class="icon icon-shape bg-orange text-white rounded-circle shadow">
@@ -51,8 +60,8 @@
                                                     <div class="row">
                                                         <div class="col">
                                                             <h2 class="card-title text-uppercase font-weight-bold mb-0">Indihome</h2>
-                                                            <span class="text-info text-sm"><i class="fa fa-database"></i> 348</span>
-                                                            <span class="text-muted text-sm">Data Field</span>
+<!--                                                            <span class="text-info text-sm"><i class="fa fa-database"></i> 348</span>-->
+<!--                                                            <span class="text-muted text-sm">Data Field</span>-->
                                                         </div>
                                                         <div class="col-auto">
                                                             <div class="icon icon-shape bg-orange text-white rounded-circle shadow">
@@ -85,8 +94,8 @@
                                                     <div class="row">
                                                         <div class="col">
                                                             <h2 class="card-title text-uppercase font-weight-bold mb-0">Bank Mega</h2>
-                                                            <span class="text-info text-sm"><i class="fa fa-database"></i> 348</span>
-                                                            <span class="text-muted text-sm">Data Field</span>
+<!--                                                            <span class="text-info text-sm"><i class="fa fa-database"></i> 348</span>-->
+<!--                                                            <span class="text-muted text-sm">Data Field</span>-->
                                                         </div>
                                                         <div class="col-auto">
                                                             <div class="icon icon-shape bg-orange text-white rounded-circle shadow">
@@ -108,8 +117,8 @@
                                                     <div class="row">
                                                         <div class="col">
                                                             <h2 class="card-title text-uppercase font-weight-bold mb-0">Bsm</h2>
-                                                            <span class="text-info text-sm"><i class="fa fa-database"></i> 348</span>
-                                                            <span class="text-muted text-sm">Data Field</span>
+<!--                                                            <span class="text-info text-sm"><i class="fa fa-database"></i> 348</span>-->
+<!--                                                            <span class="text-muted text-sm">Data Field</span>-->
                                                         </div>
                                                         <div class="col-auto">
                                                             <div class="icon icon-shape bg-orange text-white rounded-circle shadow">
@@ -131,8 +140,8 @@
                                                     <div class="row">
                                                         <div class="col">
                                                             <h2 class="card-title text-uppercase font-weight-bold mb-0">Byb</h2>
-                                                            <span class="text-info text-sm"><i class="fa fa-database"></i> 348</span>
-                                                            <span class="text-muted text-sm">Data Field</span>
+<!--                                                            <span class="text-info text-sm"><i class="fa fa-database"></i> 348</span>-->
+<!--                                                            <span class="text-muted text-sm">Data Field</span>-->
                                                         </div>
                                                         <div class="col-auto">
                                                             <div class="icon icon-shape bg-orange text-white rounded-circle shadow">
@@ -154,8 +163,8 @@
                                                     <div class="row">
                                                         <div class="col">
                                                             <h2 class="card-title text-uppercase font-weight-bold mb-0">Indofund</h2>
-                                                            <span class="text-info text-sm"><i class="fa fa-database"></i> 348</span>
-                                                            <span class="text-muted text-sm">Data Field</span>
+<!--                                                            <span class="text-info text-sm"><i class="fa fa-database"></i> 348</span>-->
+<!--                                                            <span class="text-muted text-sm">Data Field</span>-->
                                                         </div>
                                                         <div class="col-auto">
                                                             <div class="icon icon-shape bg-orange text-white rounded-circle shadow">
@@ -177,8 +186,8 @@
                                                     <div class="row">
                                                         <div class="col">
                                                             <h2 class="card-title text-uppercase font-weight-bold mb-0">Investree</h2>
-                                                            <span class="text-info text-sm"><i class="fa fa-database"></i> 348</span>
-                                                            <span class="text-muted text-sm">Data Field</span>
+<!--                                                            <span class="text-info text-sm"><i class="fa fa-database"></i> 348</span>-->
+<!--                                                            <span class="text-muted text-sm">Data Field</span>-->
                                                         </div>
                                                         <div class="col-auto">
                                                             <div class="icon icon-shape bg-orange text-white rounded-circle shadow">
@@ -200,8 +209,8 @@
                                                     <div class="row">
                                                         <div class="col">
                                                             <h2 class="card-title text-uppercase font-weight-bold mb-0">Investree OSF</h2>
-                                                            <span class="text-info text-sm"><i class="fa fa-database"></i> 348</span>
-                                                            <span class="text-muted text-sm">Data Field</span>
+<!--                                                            <span class="text-info text-sm"><i class="fa fa-database"></i> 348</span>-->
+<!--                                                            <span class="text-muted text-sm">Data Field</span>-->
                                                         </div>
                                                         <div class="col-auto">
                                                             <div class="icon icon-shape bg-orange text-white rounded-circle shadow">
@@ -223,8 +232,8 @@
                                                     <div class="row">
                                                         <div class="col">
                                                             <h2 class="card-title text-uppercase font-weight-bold mb-0">Mandala</h2>
-                                                            <span class="text-info text-sm"><i class="fa fa-database"></i> 348</span>
-                                                            <span class="text-muted text-sm">Data Field</span>
+<!--                                                            <span class="text-info text-sm"><i class="fa fa-database"></i> 348</span>-->
+<!--                                                            <span class="text-muted text-sm">Data Field</span>-->
                                                         </div>
                                                         <div class="col-auto">
                                                             <div class="icon icon-shape bg-orange text-white rounded-circle shadow">
@@ -246,8 +255,8 @@
                                                     <div class="row">
                                                         <div class="col">
                                                             <h2 class="card-title text-uppercase font-weight-bold mb-0">Modal Antara</h2>
-                                                            <span class="text-info text-sm"><i class="fa fa-database"></i> 348</span>
-                                                            <span class="text-muted text-sm">Data Field</span>
+<!--                                                            <span class="text-info text-sm"><i class="fa fa-database"></i> 348</span>-->
+<!--                                                            <span class="text-muted text-sm">Data Field</span>-->
                                                         </div>
                                                         <div class="col-auto">
                                                             <div class="icon icon-shape bg-orange text-white rounded-circle shadow">
@@ -269,8 +278,8 @@
                                                     <div class="row">
                                                         <div class="col">
                                                             <h2 class="card-title text-uppercase font-weight-bold mb-0">Tiga Raksa</h2>
-                                                            <span class="text-info text-sm"><i class="fa fa-database"></i> 348</span>
-                                                            <span class="text-muted text-sm">Data Field</span>
+<!--                                                            <span class="text-info text-sm"><i class="fa fa-database"></i> 348</span>-->
+<!--                                                            <span class="text-muted text-sm">Data Field</span>-->
                                                         </div>
                                                         <div class="col-auto">
                                                             <div class="icon icon-shape bg-orange text-white rounded-circle shadow">
@@ -292,8 +301,8 @@
                                                     <div class="row">
                                                         <div class="col">
                                                             <h2 class="card-title text-uppercase font-weight-bold mb-0">Tri Megah</h2>
-                                                            <span class="text-info text-sm"><i class="fa fa-database"></i> 348</span>
-                                                            <span class="text-muted text-sm">Data Field</span>
+<!--                                                            <span class="text-info text-sm"><i class="fa fa-database"></i> 348</span>-->
+<!--                                                            <span class="text-muted text-sm">Data Field</span>-->
                                                         </div>
                                                         <div class="col-auto">
                                                             <div class="icon icon-shape bg-orange text-white rounded-circle shadow">
@@ -326,8 +335,8 @@
                                                     <div class="row">
                                                         <div class="col">
                                                             <h2 class="card-title text-uppercase font-weight-bold mb-0">Slik</h2>
-                                                            <span class="text-info text-sm"><i class="fa fa-database"></i> 348</span>
-                                                            <span class="text-muted text-sm">Data Field</span>
+<!--                                                            <span class="text-info text-sm"><i class="fa fa-database"></i> 348</span>-->
+<!--                                                            <span class="text-muted text-sm">Data Field</span>-->
                                                         </div>
                                                         <div class="col-auto">
                                                             <div class="icon icon-shape bg-orange text-white rounded-circle shadow">
@@ -349,8 +358,8 @@
                                                     <div class="row">
                                                         <div class="col">
                                                             <h2 class="card-title text-uppercase font-weight-bold mb-0">Dukcapil</h2>
-                                                            <span class="text-info text-sm"><i class="fa fa-database"></i> 348</span>
-                                                            <span class="text-muted text-sm">Data Field</span>
+<!--                                                            <span class="text-info text-sm"><i class="fa fa-database"></i> 348</span>-->
+<!--                                                            <span class="text-muted text-sm">Data Field</span>-->
                                                         </div>
                                                         <div class="col-auto">
                                                             <div class="icon icon-shape bg-orange text-white rounded-circle shadow">

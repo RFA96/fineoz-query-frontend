@@ -12,11 +12,12 @@
         <?php include "../partials/topnav.php"; ?>
 
         <div class="container">
-            <div class="row justify-content-center py-4">
+            <div class="row py-4">
                 <div class="col-lg-6">
-                    <div class="card card-stats mr-4">
+                    <div class="card card-stats">
                         <div class="card-body">
-                            <h2 class="text-center mb-4">Search</h2>
+                            <h2 class="text-center">Search</h2>
+                            <hr/>
                             <form>
                                 <div class="form-group">
                                     <label for="example-text-input" class="form-control-label">Nama</label>
@@ -27,8 +28,16 @@
                                     <input class="form-control" type="text" name="msisdn" id="msisdn" placeholder="Mobile Number">
                                 </div>
                                 <button class="btn btn-primary" type="button" id="btn_search">SEARCH</button>
-                                <button class="btn btn-warning" type="button">Reset</button>
                             </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card card-stats">
+                        <div class="card-body">
+                            <h2 class="text-center">LIST DATA</h2>
+                            <hr/>
+                            <a href="list_card.php" class="btn btn-primary">GO LIST</a>
                         </div>
                     </div>
                 </div>
