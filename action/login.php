@@ -13,7 +13,7 @@
 
     if($loginQuery->rowCount() == 1) {
         $_SESSION['username'] = $rowLoginQuery[0]['username'];
-        header("Location: ../pages/search.php");
+        header("Location: ../pages/list_card.php");
     } else {
         $_SESSION['status'] = 'error';
         $_SESSION['message'] = 'Username or password is wrong!';
