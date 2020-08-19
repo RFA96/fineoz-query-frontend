@@ -12,7 +12,7 @@
         <?php include "../partials/topnav.php"; ?>
 
         <div class="container">
-            <div class="row">
+            <!--<div class="row">
                 <div class="mt-4">
                     <nav aria-label="breadcrumb" class="d-md-inline-block ml-md-4">
                         <ol class="breadcrumb breadcrumb-dark">
@@ -20,9 +20,9 @@
                         </ol>
                     </nav>
                 </div>
-            </div>
+            </div>-->
             <div class="row py-2">
-                <div class="col-lg-12">
+                <div class="col-lg-8">
                     <div class="accordion" id="accordionExample">
                         <div class="card">
                             <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -31,7 +31,7 @@
                             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                                 <div class="card-body">
                                     <div class="row ml-2">
-                                        <div style="width: 22rem;">
+                                        <div style="width: 21rem;">
                                             <div class="card card-stats mr-4">
                                                 <div class="card-body">
                                                     <div class="row">
@@ -54,7 +54,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div style="width: 22rem;">
+                                        <div style="width: 21rem;">
                                             <div class="card card-stats mr-4">
                                                 <div class="card-body">
                                                     <div class="row">
@@ -88,7 +88,7 @@
                             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                                 <div class="card-body">
                                     <div class="row ml-2">
-                                        <div style="width: 22rem;">
+                                        <div style="width: 21rem;">
                                             <div class="card card-stats mr-4">
                                                 <div class="card-body">
                                                     <div class="row">
@@ -111,7 +111,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div style="width: 22rem;">
+                                        <div style="width: 21rem;">
                                             <div class="card card-stats mr-4">
                                                 <div class="card-body">
                                                     <div class="row">
@@ -134,7 +134,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div style="width: 22rem;">
+                                        <div style="width: 21rem;">
                                             <div class="card card-stats mr-4">
                                                 <div class="card-body">
                                                     <div class="row">
@@ -157,7 +157,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div style="width: 22rem;">
+                                        <div style="width: 21rem;">
                                             <div class="card card-stats mr-4">
                                                 <div class="card-body">
                                                     <div class="row">
@@ -180,7 +180,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div style="width: 22rem;">
+                                        <div style="width: 21rem;">
                                             <div class="card card-stats mr-4">
                                                 <div class="card-body">
                                                     <div class="row">
@@ -203,7 +203,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div style="width: 22rem;">
+                                        <div style="width: 21rem;">
                                             <div class="card card-stats mr-4">
                                                 <div class="card-body">
                                                     <div class="row">
@@ -226,7 +226,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div style="width: 22rem;">
+                                        <div style="width: 21rem;">
                                             <div class="card card-stats mr-4">
                                                 <div class="card-body">
                                                     <div class="row">
@@ -249,7 +249,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div style="width: 22rem;">
+                                        <div style="width: 21rem;">
                                             <div class="card card-stats mr-4">
                                                 <div class="card-body">
                                                     <div class="row">
@@ -272,7 +272,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div style="width: 22rem;">
+                                        <div style="width: 21rem;">
                                             <div class="card card-stats mr-4">
                                                 <div class="card-body">
                                                     <div class="row">
@@ -295,7 +295,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div style="width: 22rem;">
+                                        <div style="width: 21rem;">
                                             <div class="card card-stats mr-4">
                                                 <div class="card-body">
                                                     <div class="row">
@@ -329,7 +329,7 @@
                             <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                                 <div class="card-body">
                                     <div class="row ml-2">
-                                        <div style="width: 22rem;">
+                                        <div style="width: 21rem;">
                                             <div class="card card-stats mr-4">
                                                 <div class="card-body">
                                                     <div class="row">
@@ -352,7 +352,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div style="width: 22rem;">
+                                        <div style="width: 21rem;">
                                             <div class="card card-stats mr-4">
                                                 <div class="card-body">
                                                     <div class="row">
@@ -378,6 +378,15 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card card-stats">
+                        <div class="card-body">
+                            <h2 class="text-center">SEARCH ALL DATA SOURCES</h2>
+                            <hr/>
+                            <a href="search.php" class="btn btn-primary">GO SEARCH</a>
                         </div>
                     </div>
                 </div>

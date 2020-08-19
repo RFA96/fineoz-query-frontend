@@ -12,7 +12,16 @@
         <?php include "../partials/topnav.php"; ?>
 
         <div class="container">
-            <div class="row py-4">
+            <div class="row">
+                <div class="mt-4">
+                    <nav aria-label="breadcrumb" class="d-md-inline-block ml-md-4">
+                        <ol class="breadcrumb breadcrumb-dark">
+                            <li class="breadcrumb-item"><a href="list_card.php" class="text-white"><i class="fas fa-angle-left"></i> Back</a></li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+            <div class="row justify-content-center py-2">
                 <div class="col-lg-6">
                     <div class="card card-stats">
                         <div class="card-body">
@@ -32,18 +41,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="card card-stats">
-                        <div class="card-body">
-                            <h2 class="text-center">LIST DATA</h2>
-                            <hr/>
-                            <a href="list_card.php" class="btn btn-primary">GO LIST</a>
-                        </div>
-                    </div>
-                </div>
             </div>
-
-
+            <hr/>
             <div class="row">
                 <h2>INDOFUND</h2>
                 <div class="table-responsive">
@@ -66,7 +65,7 @@
                     </table>
                 </div>
             </div>
-            <br/>
+            <hr/>
             <div class="row">
                 <h2>INDOSAT</h2>
                 <div class="table-responsive">
@@ -89,7 +88,7 @@
                     </table>
                 </div>
             </div>
-            <br/>
+            <hr/>
             <div class="row">
                 <h2>INDIHOME</h2>
                 <div class="table-responsive">
@@ -110,6 +109,7 @@
                     </table>
                 </div>
             </div>
+            <br/>
         </div>
         <br/>
         <?php include "../partials/assets_js.php"; ?>
@@ -117,7 +117,8 @@
             let tableIndihome = $("#table_indihome");
             let tableIndofund = $("#table_indofund");
             let tableIndosat = $("#table_indosat");
-            $("#table_indihome, #table_indofund, #table_indosat").DataTable({
+            let tableDukcapil = $("#table_dukcapil");
+            $("#table_indihome, #table_indofund, #table_indosat, #table_dukcapil").DataTable({
                 ordering: false,
                 language: {
                     paginate: {
