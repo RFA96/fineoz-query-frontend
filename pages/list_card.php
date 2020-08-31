@@ -375,6 +375,52 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <div style="width: 21rem;">
+                                            <div class="card card-stats mr-4">
+                                                <div class="card-body">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <h2 class="card-title text-uppercase font-weight-bold mb-0">STNK</h2>
+                                                            <!--                                                            <span class="text-info text-sm"><i class="fa fa-database"></i> 348</span>-->
+                                                            <!--                                                            <span class="text-muted text-sm">Data Field</span>-->
+                                                        </div>
+                                                        <div class="col-auto">
+                                                            <div class="icon icon-shape bg-orange text-white rounded-circle shadow">
+                                                                <i class="ni ni-chart-pie-35"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card-footer">
+                                                    <p class="mt-0 mb-0 text-left">
+                                                        <a href="list_stnk.php" class="btn btn-sm btn-outline-primary text-sm">Details <i class="fas fa-angle-right"></i></a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="width: 21rem;">
+                                            <div class="card card-stats mr-4">
+                                                <div class="card-body">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <h2 class="card-title text-uppercase font-weight-bold mb-0">Visitor Lobby</h2>
+                                                            <!--                                                            <span class="text-info text-sm"><i class="fa fa-database"></i> 348</span>-->
+                                                            <!--                                                            <span class="text-muted text-sm">Data Field</span>-->
+                                                        </div>
+                                                        <div class="col-auto">
+                                                            <div class="icon icon-shape bg-orange text-white rounded-circle shadow">
+                                                                <i class="ni ni-chart-pie-35"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card-footer">
+                                                    <p class="mt-0 mb-0 text-left">
+                                                        <a href="list_visitor_lobby.php" class="btn btn-sm btn-outline-primary text-sm">Details <i class="fas fa-angle-right"></i></a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
